@@ -1,0 +1,45 @@
+#content,#content .section {
+    float: none;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body,#page-wrapper,#page,#main-wrapper,#main,#content,#content .section {
+    color: #000;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+#skip-link,#navigation,.region-sidebar-first,.region-sidebar-second,#footer,.breadcrumb,div.tabs,.links,.taxonomy,.book-navigation,.forum-topic-navigation,.pager,.feed-icons {
+    visibility: hidden;
+    display: none;
+}
+
+#page-wrapper {
+    overflow-y: visible;
+}
+
+.foot,.city,#search,#simplemenu {
+    display: none;
+}
+
+.orgfoot {
+    display: none;
+}
+
+.im_icons,.control-icons {
+    display: none;
+}
+
+.rss-icon {
+    display: none;
+}
+
+#content-area {
+    margin-top: 2em;
+}
+
+.print-no-map #map_canvas_wrapper {
+    display: none !important;
+}
